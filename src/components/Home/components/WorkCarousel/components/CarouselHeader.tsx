@@ -19,7 +19,8 @@ const CarouselHeader = ({
     <AppContainer.Spaced>
       <div className='flex flex-col gap-3 mt-15'>
         <div className='flex items-center gap-2'>
-          <span className='font-medium text-[.9em]'>Trabalho 👨🏻‍💻</span>
+          <span className='font-medium text-[.9em]'>{'<Projetos />'}</span>
+
           <div className='hidden md:block'>
             <Button
               variant='ghost'

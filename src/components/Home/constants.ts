@@ -5,6 +5,8 @@ export const WORK = {
     description: 'Projeto de e-commerce gamer.',
     image: '/work-miniatures/game-center.webp',
     url: 'https://dapper-strudel-f37712.netlify.app/',
+    date: '01/01/2023',
+    gitHub: 'https://github.com',
   },
   netflix: {
     key: 'netflix',
@@ -12,6 +14,8 @@ export const WORK = {
     description: 'Clone da interface do Netflix.',
     image: '/work-miniatures/netflix.webp',
     url: 'https://affectionate-newton-dfe167.netlify.app/',
+    date: '01/01/2023',
+    gitHub: 'https://github.com',
   },
   pokegame: {
     key: 'pokegame',
@@ -19,6 +23,8 @@ export const WORK = {
     description: 'Jogo simples que simula uma batalha pokemon.',
     image: '/work-miniatures/pokegame.webp',
     url: 'https://sad-shirley-ac6d59.netlify.app/',
+    date: '01/01/2023',
+    gitHub: 'https://github.com',
   },
   todo: {
     key: 'todo',
@@ -26,6 +32,8 @@ export const WORK = {
     description: 'Aplicativo de lista de tarefas.',
     image: '/work-miniatures/todo.webp',
     url: 'https://bright-cheesecake-3ac5a9.netlify.app/',
+    date: '01/01/2023',
+    gitHub: 'https://github.com',
   },
   grafo: {
     key: 'grafo',
@@ -33,6 +41,8 @@ export const WORK = {
     description: 'Aplicativo para visualização de grafos.',
     image: '/work-miniatures/grafo.webp',
     url: 'https://graph-d3.netlify.app/',
+    date: '01/01/2023',
+    gitHub: 'https://github.com',
   },
   mapa: {
     key: 'mapa',
@@ -41,5 +51,7 @@ export const WORK = {
       'Aplicativo de mapa de calor de empresas de ramos específicos.',
     image: '/work-miniatures/heat-map.webp',
     url: '#',
+    date: '01/01/2023',
+    gitHub: 'https://github.com',
   },
 };
