@@ -47,11 +47,11 @@ const WorkCarousel = () => (
 
     <ScrollArea className='w-full rounded-md sm:whitespace-nowrap' prefix='10'>
       <div className='pl-0 xl:pl-[22vw]'>
-        <div className='flex flex-col items-center space-y-4 p-4 sm:flex-row sm:space-y-0 sm:space-x-4 sm:w-max'>
+        <div className='flex flex-col items-center space-y-10 p-4 sm:flex-row sm:space-y-0 sm:space-x-4 sm:w-max overflow-hidden'>
           {Object.values(WORK).map((workItem) => (
             <div
               key={workItem.key}
-              className='cursor-pointer w-full h-70 border rounded-lg sm:w-90 relative hover:shadow-[0_0_5px_2px_rgba(251,146,60,0.3)] hover:border-amber-400 transition-all duration-200 ease-in-out'
+              className='cursor-pointer w-full h-70 border rounded-lg sm:w-90 relative transition-all duration-200 ease-in-out'
             >
               <a
                 href={workItem.url}
@@ -59,14 +59,14 @@ const WorkCarousel = () => (
                 target='_blank'
                 rel='noreferrer'
               >
-                <div className='overflow-hidden h-full rounded-lg bg-linear-to-t from-[#170a4f] to-background relative group'>
+                <div className='h-full rounded-lg bg-linear-to-t from-[#4f3e0a] to-background relative group [clip-path:inset(-50px_0_0_0)]'>
                   <img
                     src={workItem.image}
                     alt={workItem.title}
-                    className='object-unset w-[100%] h-auto sm:w-auto sm:h-[100%]  group-hover:scale-101 transition-transform duration-200 ease-in-out'
+                    className='object-unset w-[100%] h-auto sm:w-auto sm:h-[100%] group-hover:-translate-y-7 transition-transform duration-200 ease-in-out'
                   />
 
-                  <div className='absolute bottom-0 left-0 right-0 bg-background border-t h-25 px-5 flex items-center justify-between gap-2'>
+                  <div className='absolute bottom-0 left-0 right-0 bg-background border-t rounded-b-md h-25 px-5 flex items-center justify-between gap-2'>
                     <div className='flex flex-col w-1/1'>
                       <div className='flex items-center gap-1'>
                         <span className='block text-md font-medium text-shadow-muted-foreground group-hover:text-orange-400'>

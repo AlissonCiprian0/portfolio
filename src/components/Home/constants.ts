@@ -25,6 +25,21 @@ export const WORK = {
     title: 'Todo App',
     description: 'Aplicativo de lista de tarefas.',
     image: '/work-miniatures/todo.webp',
-    url: 'https://bright-cheesecake-3ac5a9.netlify.app/home',
+    url: 'https://bright-cheesecake-3ac5a9.netlify.app/',
+  },
+  grafo: {
+    key: 'grafo',
+    title: 'Grafo',
+    description: 'Aplicativo para visualização de grafos.',
+    image: '/work-miniatures/grafo.webp',
+    url: 'https://graph-d3.netlify.app/',
+  },
+  mapa: {
+    key: 'mapa',
+    title: 'Mapa de Calor',
+    description:
+      'Aplicativo de mapa de calor de empresas de ramos específicos.',
+    image: '/work-miniatures/heat-map.webp',
+    url: '#',
   },
 };
