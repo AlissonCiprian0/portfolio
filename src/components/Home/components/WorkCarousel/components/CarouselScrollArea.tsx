@@ -19,7 +19,7 @@ const CarouselScrollArea = ({
           {Object.values(WORK).map((workItem) => (
             <div
               key={workItem.key}
-              className='cursor-pointer w-full h-70 border rounded-lg sm:w-90 relative transition-all duration-200 ease-in-out'
+              className='cursor-pointer w-full h-70 border border-purple-200 dark:border-neutral-800 rounded-lg sm:w-90 relative transition-all duration-200 ease-in-out'
             >
               <a
                 href={workItem.url}
@@ -27,7 +27,7 @@ const CarouselScrollArea = ({
                 target='_blank'
                 rel='noreferrer'
               >
-                <div className='h-full rounded-lg bg-linear-to-t from-[#4f3e0a] to-background relative group [clip-path:inset(-50px_0_0_0)]'>
+                <div className='h-full rounded-lg bg-linear-to-t dark:from-[#4f3e0a] to-background relative group [clip-path:inset(-50px_0_0_0)]'>
                   <img
                     src={workItem.image}
                     alt={workItem.title}
@@ -37,11 +37,11 @@ const CarouselScrollArea = ({
                   <div className='absolute bottom-0 left-0 right-0 bg-background border-t rounded-b-md h-25 px-5 flex items-center justify-between gap-2'>
                     <div className='flex flex-col w-1/1'>
                       <div className='flex items-center gap-1'>
-                        <span className='block text-md font-medium text-shadow-muted-foreground group-hover:text-orange-400'>
+                        <span className='block text-md font-medium text-shadow-muted-foreground group-hover:text-orange-900 dark:group-hover:text-orange-400'>
                           {workItem.title}
                         </span>
 
-                        <ArrowRight className='size-3.5 text-orange-400 mt-0.5 hidden group-hover:block' />
+                        <ArrowRight className='size-3.5 text-orange-900 dark:text-orange-400 mt-0.5 hidden group-hover:block' />
                       </div>
 
                       <span className='text-xs text-muted-foreground text-wrap min-w-0 leading-5'>
@@ -50,11 +50,14 @@ const CarouselScrollArea = ({
                     </div>
 
                     <div className='flex flex-col gap-2'>
-                      <Badge variant='secondary' className='text-zinc-200'>
+                      <Badge
+                        variant='secondary'
+                        className='bg-purple-200 dark:bg-muted dark:text-zinc-200'
+                      >
                         Frontend
                       </Badge>
 
-                      <Badge variant='outline' className='text-zinc-200'>
+                      <Badge variant='outline' className='dark:text-zinc-200'>
                         Projeto de estudo
                       </Badge>
                     </div>

@@ -30,7 +30,9 @@ const CarouselHeader = ({
             >
               <ChevronLeft
                 className={`size-3.5 ${
-                  !isAtStart ? 'text-orange-400' : 'text-muted-foreground'
+                  !isAtStart
+                    ? 'text-orange-800 dark:text-orange-400'
+                    : 'text-muted-foreground'
                 }`}
               />
             </Button>
@@ -44,7 +46,9 @@ const CarouselHeader = ({
             >
               <ChevronRight
                 className={`size-3.5 ${
-                  !isAtEnd ? 'text-orange-400' : 'text-muted-foreground'
+                  !isAtEnd
+                    ? 'text-orange-800 dark:text-orange-400'
+                    : 'text-muted-foreground'
                 }`}
               />
             </Button>
@@ -53,10 +57,10 @@ const CarouselHeader = ({
           <div className='ml-auto'>
             <Button
               variant='menu'
-              className='h-7 font-light text-orange-400 hover:text-orange-400 gap-1 group'
+              className='h-7 font-light text-orange-800 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-400 hover:bg-white gap-1 group'
             >
               <span className='block leading-none -mt-0.5'>Ver todos</span>
-              <ChevronRight className='size-3.5 text-orange-400 mt-[1.3px] group-hover:translate-x-1 transition-transform duration-200 ease-in-out' />
+              <ChevronRight className='size-3.5 text-orange-800 dark:text-orange-400 mt-[1.3px] group-hover:translate-x-1 transition-transform duration-200 ease-in-out' />
             </Button>
           </div>
         </div>
