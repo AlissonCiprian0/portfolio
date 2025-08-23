@@ -1,5 +1,4 @@
 import { ModeToggle } from '@/components/ui/mode-toggle';
-import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Menubar } from '@/components/ui/menubar';
 import { Button } from '@/components/ui/button';
 
@@ -17,12 +16,6 @@ const Menu = () => {
 
         <div className='ml-auto flex items-center gap-2'>
           <ModeToggle />
-
-          <Avatar className='cursor-pointer'>
-            <AvatarFallback className='text-purple-700 hover:text-purple-500 hover:border-purple-500'>
-              AC
-            </AvatarFallback>
-          </Avatar>
         </div>
       </Menubar>
     </div>

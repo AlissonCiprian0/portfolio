@@ -3,6 +3,7 @@ import { AuroraBackground } from '@/components/AuroraBackground/AuroraBackground
 import Menu from '@/components/Menu/Menu';
 import AppContainer from '@/components/AppContainer/AppContainer';
 import Home from '@/components/Home/Home';
+import Footer from '@/components/Footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
             <Home.WorkCarousel.ScrollArea />
           </Home.WorkCarousel.Container>
         </AppContainer>
+
+        <Footer />
       </AuroraBackground>
     </ThemeProvider>
   );

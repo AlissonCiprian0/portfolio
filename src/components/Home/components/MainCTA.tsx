@@ -19,10 +19,10 @@ const MainCTA = () => (
 
       <div className='flex gap-5'>
         <a
-          href='#'
+          href='/Alisson_Cipriano_-_Curriculo.pdf'
           className='flex items-center gap-1 font-extralight text-[.9em] text-muted-foreground cursor-pointer hover:text-accent-foreground'
         >
-          <FileText className='h-[1rem] w-[1rem]' />
+          <FileText className='size-4' />
           <span className='sr-only'>Currículo</span>
         </a>
 
@@ -30,7 +30,7 @@ const MainCTA = () => (
           href='https://www.linkedin.com/in/alisson-cipriano-aa4420206/'
           className='flex items-center gap-1 font-extralight text-[.9em] text-muted-foreground cursor-pointer hover:text-accent-foreground'
         >
-          <Linkedin className='h-[1rem] w-[1rem]' />
+          <Linkedin className='size-4' />
           <span className='sr-only'>LinkedIn</span>
         </a>
 
@@ -38,7 +38,7 @@ const MainCTA = () => (
           href='https://github.com/alissoncipriano'
           className='flex items-center gap-1 font-extralight text-[.9em] text-muted-foreground cursor-pointer hover:text-accent-foreground'
         >
-          <Github className='h-[1rem] w-[1rem]' />
+          <Github className='size-4' />
           <span className='sr-only'>GitHub</span>
         </a>
       </div>
