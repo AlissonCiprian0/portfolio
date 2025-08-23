@@ -15,7 +15,10 @@ function App() {
             <Home.MainCTA />
           </AppContainer.Spaced>
 
-          <Home.WorkCarousel />
+          <Home.WorkCarousel.Container>
+            <Home.WorkCarousel.Header />
+            <Home.WorkCarousel.ScrollArea />
+          </Home.WorkCarousel.Container>
         </AppContainer>
       </AuroraBackground>
     </ThemeProvider>

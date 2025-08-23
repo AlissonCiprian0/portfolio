@@ -1,5 +1,5 @@
 import MainCTA from './components/MainCTA';
-import WorkCarousel from './components/WorkCarousel';
+import { WorkCarousel } from './components/WorkCarousel';
 
 const Home = {
   MainCTA,
