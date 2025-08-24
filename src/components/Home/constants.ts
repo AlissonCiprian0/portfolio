@@ -4,7 +4,7 @@ export const WORK = {
     title: 'Game Center',
     description: 'Projeto de e-commerce gamer.',
     image: '/work-miniatures/game-center.webp',
-    url: 'https://dapper-strudel-f37712.netlify.app/',
+    url: 'https://unique-youtiao-335656.netlify.app/',
     date: '01/01/2023',
     gitHub: 'https://github.com',
   },
