@@ -5,7 +5,7 @@ export const WORK = {
     description: 'Projeto de e-commerce gamer.',
     image: '/work-miniatures/game-center.webp',
     url: 'https://unique-youtiao-335656.netlify.app/',
-    date: '01/01/2023',
+    date: '04/2022',
     gitHub: 'https://github.com',
   },
   netflix: {
@@ -14,7 +14,7 @@ export const WORK = {
     description: 'Clone da interface do Netflix.',
     image: '/work-miniatures/netflix.webp',
     url: 'https://affectionate-newton-dfe167.netlify.app/',
-    date: '01/01/2023',
+    date: '10/2021',
     gitHub: 'https://github.com',
   },
   pokegame: {
@@ -23,7 +23,7 @@ export const WORK = {
     description: 'Jogo simples que simula uma batalha pokemon.',
     image: '/work-miniatures/pokegame.webp',
     url: 'https://sad-shirley-ac6d59.netlify.app/',
-    date: '01/01/2023',
+    date: '10/2021',
     gitHub: 'https://github.com',
   },
   todo: {
@@ -31,9 +31,9 @@ export const WORK = {
     title: 'Todo App',
     description: 'Aplicativo de lista de tarefas.',
     image: '/work-miniatures/todo.webp',
-    url: 'https://bright-cheesecake-3ac5a9.netlify.app/',
-    date: '01/01/2023',
-    gitHub: 'https://github.com',
+    url: 'https://serene-davinci-d38629.netlify.app',
+    date: '10/2021',
+    gitHub: 'https://github.com/AlissonCiprian0/todo-app-react',
   },
   grafo: {
     key: 'grafo',
@@ -41,8 +41,8 @@ export const WORK = {
     description: 'Aplicativo para visualização de grafos.',
     image: '/work-miniatures/grafo.webp',
     url: 'https://graph-d3.netlify.app/',
-    date: '01/01/2023',
-    gitHub: 'https://github.com',
+    date: '08/2025',
+    gitHub: 'https://github.com/AlissonCiprian0/grafo',
   },
   mapa: {
     key: 'mapa',
@@ -50,8 +50,8 @@ export const WORK = {
     description:
       'Aplicativo de mapa de calor de empresas de ramos específicos.',
     image: '/work-miniatures/heat-map.webp',
-    url: '#',
-    date: '01/01/2023',
-    gitHub: 'https://github.com',
+    url: 'https://github.com/AlissonCiprian0/business-map',
+    date: '08/2025',
+    gitHub: 'https://github.com/AlissonCiprian0/business-map',
   },
 };
